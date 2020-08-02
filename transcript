@@ -1,0 +1,77 @@
+# Reading D:/ModelSim/Yingyong/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {TEXT.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:40:54 on Jun 11,2020
+# vlog -reportprogress 300 ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 19:40:54 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:40:54 on Jun 11,2020
+# vlog -reportprogress 300 cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 19:40:54 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:40:54 on Jun 11,2020
+# vlog -reportprogress 300 TEXT.v 
+# -- Compiling module TEXT
+# 
+# Top level modules:
+# 	TEXT
+# End time: 19:40:54 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 19:40:54 on Jun 11,2020
+# vlog -reportprogress 300 D:/ISE/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 19:40:54 on Jun 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -do "do {TEXT.fdo}" 
+# Start time: 19:40:54 on Jun 11,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "cpu(fast)".
+# 
+# Loading work.TEXT(fast)
+# Loading work.cpu(fast)
+# Loading work.ROM(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: asus  Hostname: DESKTOP-L7JEFHD  ProcessID: 5552
+# 
+#           Attempting to use alternate WLF file "./wlft8xd7rn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate# End time: 19:41:21 on Jun 11,2020, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+ure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 19:41:16 on Jun 11,2020, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2

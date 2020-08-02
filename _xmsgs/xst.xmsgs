@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 65 </arg>Reference to <arg fmt="%s" index="2">vector wire &apos;acc&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 65 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 66 </arg>Reference to <arg fmt="%s" index="2">vector wire &apos;acc&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 66 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 67 </arg>Reference to <arg fmt="%s" index="2">vector wire &apos;acc&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 67 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 78 </arg>Reference to <arg fmt="%s" index="2">scalar wire &apos;rd&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 78 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 79 </arg>Reference to <arg fmt="%s" index="2">scalar wire &apos;wr&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 79 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 81 </arg>Reference to <arg fmt="%s" index="2">vector wire &apos;acc&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 81 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 85 </arg>Reference to <arg fmt="%s" index="2">scalar wire &apos;rd&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 85 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+<msg type="error" file="HDLCompilers" num="247" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 86 </arg>Reference to <arg fmt="%s" index="2">scalar wire &apos;wr&apos;</arg> is not a legal reg or variable lvalue
+</msg>
+
+<msg type="error" file="HDLCompilers" num="106" delta="old" ><arg fmt="%s" index="1">&quot;IMP.v&quot; line 86 </arg>Illegal left hand side of nonblocking assignment
+</msg>
+
+</messages>
+

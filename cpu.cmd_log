@@ -1,0 +1,73 @@
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx25-ff668-10 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc4vsx25-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -t 1 cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/ISE_pRO/CPU/cpu.xst" -ofn "D:/ISE_pRO/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 
+xst -intstyle ise -ifn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.xst" -ofn "D:/Users/75883/Tencent File/758838466/FileRecv/CPU/cpu.syr" 

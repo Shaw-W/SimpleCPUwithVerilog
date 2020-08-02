@@ -1,0 +1,4 @@
+verilog work "ROM.v"
+verilog work "IMP.v"
+verilog work "IDEC.v"
+verilog work "cpu.v"

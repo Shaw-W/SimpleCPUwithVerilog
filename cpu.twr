@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 10 -n
+3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf
+
+Design file:              cpu.ncd
+Physical constraint file: cpu.pcf
+Device,package,speed:     xc4vsx25,ff668,-10 (PRODUCTION 1.71 2013-10-13, STEPPING level 1)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+data_in<0>  |   -1.045(R)|    3.036(R)|clk_BUFGP         |   0.000|
+data_in<1>  |   -0.845(R)|    3.033(R)|clk_BUFGP         |   0.000|
+data_in<2>  |   -0.135(R)|    2.958(R)|clk_BUFGP         |   0.000|
+data_in<3>  |   -0.893(R)|    3.466(R)|clk_BUFGP         |   0.000|
+data_in<4>  |   -1.270(R)|    2.816(R)|clk_BUFGP         |   0.000|
+data_in<5>  |   -1.141(R)|    2.699(R)|clk_BUFGP         |   0.000|
+data_in<6>  |   -1.034(R)|    2.604(R)|clk_BUFGP         |   0.000|
+data_in<7>  |   -0.925(R)|    2.508(R)|clk_BUFGP         |   0.000|
+data_in<8>  |   -2.387(R)|    3.850(R)|clk_BUFGP         |   0.000|
+data_in<9>  |   -2.423(R)|    3.884(R)|clk_BUFGP         |   0.000|
+data_in<10> |   -2.125(R)|    3.615(R)|clk_BUFGP         |   0.000|
+data_in<11> |   -2.182(R)|    3.667(R)|clk_BUFGP         |   0.000|
+n_Rst       |    1.077(R)|    3.487(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+data_out<0> |   10.773(R)|clk_BUFGP         |   0.000|
+data_out<1> |   10.625(R)|clk_BUFGP         |   0.000|
+data_out<2> |   10.609(R)|clk_BUFGP         |   0.000|
+data_out<3> |   10.876(R)|clk_BUFGP         |   0.000|
+data_out<4> |   10.617(R)|clk_BUFGP         |   0.000|
+data_out<5> |   10.882(R)|clk_BUFGP         |   0.000|
+data_out<6> |   10.628(R)|clk_BUFGP         |   0.000|
+data_out<7> |   10.886(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.569|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Jun 11 19:36:39 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4623 MB
+
+
+
